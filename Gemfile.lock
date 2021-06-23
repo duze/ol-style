@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    rubocop-ol-style (0.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rubocop-ol-style!
+
+BUNDLED WITH
+   2.2.22

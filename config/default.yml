@@ -1,0 +1,6 @@
+inherit_from:
+  - bundler.yml
+  - layout.yml
+  - metrics.yml
+  - rspec.yml
+  - style.yml

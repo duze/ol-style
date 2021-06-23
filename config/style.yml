@@ -1,0 +1,5 @@
+Style/NumericPredicate:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
