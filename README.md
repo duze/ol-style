@@ -26,6 +26,21 @@ inherit_gem:
 
 Now you can try to run RuboCop command if the rules are applied.
 
+## Usage
+
+You need to run `rubocop` with `bundle exec`:
+
+```shell
+bundle exec rubocop
+```
+
+The reason is Bundler does not install gems from repositories as a local gem. Only running in a context of the bundle (`bundle exec`)
+these gems are found. Otherwise you meet with:
+
+```shell
+cannot load such file -- rubocop-ol-style
+```
+
 ## Contribution
 
 Please, for any contribution, follow these advices/rules:
