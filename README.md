@@ -17,7 +17,7 @@ And then execute:
 bundle install
 ```
 
-And then add these lines at beginning of your `.rubocop.yml`
+And then add these lines at beginning of your `.rubocop.yml`:
 
 ```yaml
 inherit_gem:
@@ -41,6 +41,20 @@ these gems are found. Otherwise you meet with:
 cannot load such file -- rubocop-ol-style
 ```
 
+Alternatively you can generate a binstub using `bundle binstub` command:
+
+```shell
+bundle binstubs rubocop
+```
+
+This command creates `bin/rubocop` executable file. It runs in a context of the bundle as well. RuboCop can be simply run by `bin/rubocop`.
+
+You can add your project's binstubs to your `PATH` (example is for Bourne shell):
+
+```shell
+export PATH=$PATH:./bin
+```
+
 ## Contribution
 
 Please, for any contribution, follow these advices/rules:
@@ -56,4 +70,3 @@ Please, for any contribution, follow these advices/rules:
 - [RuboCop documentation](https://docs.rubocop.org/)
 - [Ruby Style Guide](https://rubystyle.guide/)
 - [AirBnb Ruby Style Guide](https://github.com/airbnb/ruby)
-
