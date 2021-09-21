@@ -1,5 +1,8 @@
 RSpec/ExampleLength:
   Max: 10
+  
+RSpec/MultipleExpectations:
+  Enabled: false
 
 RSpec/MultipleMemoizedHelpers:
   Max: 10
