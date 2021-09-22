@@ -61,9 +61,9 @@ Please, for any contribution, follow these advices/rules:
 
 - disable only default rules
 - enable only non-default rules
-- discuess any rule tweaks with others
+- discuss any rule tweaks with others
 - comment enabling/disabling or tweaking of any rule if it makes sense
-- seperate rules according to their modules (e.g. layout's rules belong to `config/layout.yml`)
+- separate rules according to their modules (e.g. layout's rules belong to `config/layout.yml`)
 
 ## Links
 
