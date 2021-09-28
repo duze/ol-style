@@ -2,6 +2,8 @@ inherit_from:
   - bundler.yml
   - layout.yml
   - metrics.yml
+  - lint.yml
+  - naming.yml
   - rails.yml
   - rspec.yml
   - style.yml

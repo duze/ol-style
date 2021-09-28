@@ -1,2 +1,11 @@
 Layout/LineLength:
   Max: 140
+
+# Allow to write in specs:
+# expect do
+#   put "/api/bmt/v1/api_users/#{api_user.id}", params: { api_user: params }
+# end.to change(api_user, :pause_status).to('deactivated')
+#   .and change(api_user, :enabled).to(false)
+Layout/MultilineMethodCallIndentation:
+  Exclude:
+    - spec/**/*_spec.rb

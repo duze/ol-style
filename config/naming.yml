@@ -1,0 +1,4 @@
+# OL uses extensively has_/have_ prefixes so check only is_ prefix
+Naming/PredicateName:
+  ForbiddenPrefixes:
+    - is_
