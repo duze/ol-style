@@ -8,4 +8,4 @@ RSpec/MultipleMemoizedHelpers:
   Max: 20
 
 RSpec/NestedGroups:
-  Max: 10
+  Max: 6
