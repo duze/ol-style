@@ -1,6 +1,9 @@
 Layout/LineLength:
   Max: 140
 
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
 # Allow to write in specs:
 # expect do
 #   put "/api/bmt/v1/api_users/#{api_user.id}", params: { api_user: params }
