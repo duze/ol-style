@@ -1,6 +1,8 @@
 Metrics/AbcSize:
   CountRepeatedAttributes: false
   Max: 25
+  Exclude:
+    - 'db/migrate/**/*.rb'
 
 Metrics/MethodLength:
   Max: 40
