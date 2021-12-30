@@ -37,9 +37,6 @@ Rails/MatchRoute:
 Rails/NegateInclude:
   Enabled: true
 
-Rails/OrderById:
-  Enabled: true
-
 Rails/Pluck:
   Enabled: true
 

@@ -78,11 +78,5 @@ Layout/MultilineMethodCallIndentation:
 Layout/MultilineMethodDefinitionBraceLayout:
   EnforcedStyle: new_line
 
-Layout/RedundantLineBreak:
-  Enabled: true
-
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: true
-
 Layout/SpaceBeforeBrackets:
   Enabled: true
