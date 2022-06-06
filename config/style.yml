@@ -3,3 +3,6 @@ Style/NumericPredicate:
 
 Style/Documentation:
   Enabled: false
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: either
