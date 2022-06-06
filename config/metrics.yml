@@ -2,7 +2,21 @@ Metrics/AbcSize:
   CountRepeatedAttributes: false
   Max: 25
   Exclude:
-    - 'db/migrate/**/*.rb'
+    - 'db/migrate/*.rb'
+    - 'db/data_migrate_after_db/*.rb'
+    - 'db/data_migrate_before_db/*.rb'
+
+Metrics/PerceivedComplexity:
+  Exclude:
+    - 'db/migrate/*.rb'
+    - 'db/data_migrate_after_db/*.rb'
+    - 'db/data_migrate_before_db/*.rb'
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+    - 'db/migrate/*.rb'
+    - 'db/data_migrate_after_db/*.rb'
+    - 'db/data_migrate_before_db/*.rb'
 
 Metrics/MethodLength:
   Max: 40
@@ -15,3 +29,6 @@ Metrics/BlockLength:
     - 'Rakefile'
     - '**/*.rake'
     - 'spec/**/*.rb'
+    - 'config/**/**'
+  ExcludedMethods:
+    - included
