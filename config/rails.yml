@@ -53,8 +53,7 @@ Rails/RenderPlainText:
   Enabled: true
 
 Rails/SaveBang:
-  Enabled: true
-  AllowImplicitReturn: false
+  Enabled: false
 
 Rails/ShortI18n:
   Enabled: true
