@@ -9,3 +9,7 @@ RSpec/MultipleMemoizedHelpers:
 
 RSpec/NestedGroups:
   Max: 6
+  
+RSpec/FilePath:
+  Exclude:
+    - 'spec/requests/**/*.rb'
