@@ -1,3 +1,7 @@
+RSpec/ContextWording:
+  Exclude:
+    - 'spec/support/shared/context/**/*.rb'
+
 RSpec/ExampleLength:
   Max: 30
 
